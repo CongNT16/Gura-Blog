@@ -1,0 +1,172 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 20, 2022, 12:16:47 PM
+    Author     : nguye
+*/
+
+
+.container-main:after{
+    /*background-color: var(--background-secondary);*/
+    content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("../images/gura_background.png") no-repeat center;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+    
+}
+
+
+.container-profile {
+    width: 70%;
+    margin: auto;
+    padding: 100px 0px;
+    /*background-color: var(--background-primary);*/
+}
+
+
+.info-user {
+    background-color: var(--background-primary);
+    border-radius: 10px;
+    padding: 30px 20px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    color: var(--foreground-primary);
+}
+
+
+
+
+.main-info h1 {
+    border-bottom: 1px solid rgba(191, 189, 189, 0.3);
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.avatar-user {
+    text-align: center;
+    position: relative;
+   
+}
+
+.avatar-user img {
+    width: 60%;
+    /*border-radius: 16px;*/
+    margin: auto;
+    padding-top: 40px;
+    
+}
+
+.info-content {
+    padding: 16px 16px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    
+}
+
+
+.main-info .text-edit {
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(104, 112, 116);
+    right: 0px;
+    cursor: pointer;
+}
+
+.main-info .text-edit:hover {
+    color: var(--accent);
+}
+
+/*.main-info .useraccount,
+.main-info .username,
+.main-info .usergender,
+.main-info .userdob,
+.main-info useremail,
+.main-info userphone,
+.main-info useraddress{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+
+*/.main-info .useraccount .label,
+.main-info .username .label,
+.main-info .usergender .label,
+.main-info .userdob .label,
+.main-info useremail .label,
+.main-info userphone .label,
+.main-info useraddress .label{
+    display: inline-block;
+    color: white;
+    font-weight: 900;
+    text-align: right;
+    padding-right: 20%;
+}/*
+
+.main-info .useraccount .info,
+.main-info .username .info,
+.main-info .usergender .info,
+.main-info .userdob .info,
+.main-info useremail .info,
+.main-info userphone .info,
+.main-info useraddress .info{
+    font-weight: 400;
+    padding-left: 10px;
+}*/
+
+.hidden-action {
+    display: none;
+}
+
+.input-field {
+    font-size: 20px;
+    padding: 1px 12px;
+}
+
+.main-info .submit-modify {
+    background-color: #01c6b2;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    float: right;
+    cursor: pointer;
+    margin-right: 60px;
+}
+
+/*.main-info .submit-modify:hover,
+.show-order:hover {
+    background-color: #710000;
+    color: #d9d9d9;
+}*/
+
+/*.avatar-user .upload-avatar {
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 6px 10px;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.avatar-user .upload-avatar:hover {
+    background-color: #c0c0c0;
+}*/
+
